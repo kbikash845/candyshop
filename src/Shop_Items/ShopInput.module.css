@@ -1,0 +1,15 @@
+.inputdiv{ 
+    /* border: 1px solid red; */
+    width: 70rem;
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.mainContainer{
+    margin-top: 0px;
+    border-bottom: 1px solid aqua;
+    height: 10rem;
+    background-color: aquamarine;
+}
