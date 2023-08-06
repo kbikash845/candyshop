@@ -1,13 +1,18 @@
-import React from 'react'
-import Header from './Component/Layout/Header';
+import React from 'react';
+import Headers from './Component/Layout/Headers';
 import ImageSlide from './ImageSlider/ImageSlide';
+import ShopInput from './Shop_Items/ShopInput';
+import CartProvider from './Store/CartProvider';
 
 
 function App() {
   return (
     <div>
-      <Header/>
+      <CartProvider>
+      <Headers/>
       <ImageSlide/>
+      <ShopInput/>
+      </CartProvider>
     </div>
   )
 }
